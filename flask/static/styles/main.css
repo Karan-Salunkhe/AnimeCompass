@@ -1,0 +1,161 @@
+body.index {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: large;
+  color: white;
+  background-image: url("../city_street_anime_background.jpg");
+  background-size: cover;
+}
+
+body.recommendation {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: large;
+  color: white;
+  background-image: url("../your_lie_in_april_original.jpg");
+  background-size: cover;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+  text-decoration: underline;
+}
+
+input[type=text] {
+    width: 12.8em;
+    height: 1em;
+    font-size: medium;
+}
+
+input[type=submit] {
+    width: 13.3em;
+    height: 2em;
+    font-size: medium;
+}
+
+/* Need absolute position to ignore the table element */
+div.right-of-table {
+  position: absolute;
+  left: 50%;
+  top: 15%;
+}
+
+/* The below two styles show how I can change the position of a child element relative
+to the parent element */
+.loading-gif {
+  position: relative;
+}
+
+.loading-text {
+  position: absolute;
+  left: 75px;
+}
+
+/* I fixed the width because otherwise it kept on changing size
+for some weird reason when I click "Recommend" */
+.slidecontainer {
+  width: 350px; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+  width: 100%; /* Full-width of the outside container */
+}
+
+/* Took below code on positioning inline text from Stack Overflow:
+https://stackoverflow.com/questions/13694062/css-left-center-right-align-text-on-same-line */
+
+.same-line {
+  height: 10px;
+  position: relative;
+}
+
+.same-line div{
+  display: inline-block;
+  position: absolute;
+}
+
+.slider-label-left {
+  font-size: small;
+  left: 0px;
+}
+
+.slider-label-center {
+  font-size: small;
+  left: 0%;
+  right: 0%;
+  text-align: center;
+}
+
+.slider-label-right {
+  font-size: small;
+  right: 0px;
+}
+
+/* Took below code on table styling from Mozilla:
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot */
+
+thead {
+    background-color: #3f87a6;
+    color: #fff;
+}
+
+tbody {
+    background-color: #e4f0f5;
+}
+
+table {
+    width: 40%; /* Keeps the table width constant at a percentage of the page width */
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 5px 10px;
+    text-align: center;
+}
+
+th.anime-title {
+  text-align: left;
+}
+
+td.anime-rank {
+  color: black;
+  width: 5%;
+}
+
+td.anime-image {
+  width: 25%;
+}
+
+/* Control image size using maximum size boundaries and still
+maintain proportion */
+img.anime-image {
+    height: auto;
+    width: auto;
+    max-width: 125px;
+    max-height: 125px;
+}
+
+td.anime-title {
+  width: 70%;
+  text-align: left;
+}
