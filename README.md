@@ -8,8 +8,7 @@ The recommender combines **content-based filtering** (analyzing anime features l
 - **More conservative**: Higher weight on content-based filtering to suggest titles similar to the user's past preferences.  
 
 By giving users control over recommendation type, the system improves engagement and satisfaction, which is a key business driver for anime platforms.
-
-To learn more about the methodology, see my [blog post](https://binhhoang.io/blog/anime-recommender/).  
+ 
 
 *Images and data were sourced from the internet for educational purposes.*
 
